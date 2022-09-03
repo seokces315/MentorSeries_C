@@ -18,16 +18,16 @@ void main() {
 
 	// switch문을 활용해 조건분기 후 출력
 	switch (choice) {
-	case 1:
+	case 1 :
 		resMsg = aMsg;
 		break;
-	case 2:
+	case 2 :
 		resMsg = bMsg;
 		break;
-	case 3:
+	case 3 :
 		resMsg = oMsg;
 		break;
-	case 4:
+	case 4 :
 		resMsg = abMsg;
 		break;
 	default :
