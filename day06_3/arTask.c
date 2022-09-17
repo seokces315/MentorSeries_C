@@ -11,7 +11,7 @@ void main() {
 	}
 	printf("\n"); // 줄바꿈
 
-	// 10 ~ 1 중 짝수만 배열에 담고 출력
+	// 1 ~ 10 중 짝수만 배열에 담고 출력
 	int arData2[5] = { 0, };
 	int length2 = sizeof(arData2) / sizeof(int);
 	for (int i = 0; i < length2; i++) {
