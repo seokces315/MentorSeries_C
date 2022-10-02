@@ -63,7 +63,7 @@ void main() {
 			for (int i = 0; i < cnt; i++) {
 				if (!strcmp(tmpName, arName[i])) {
 					isDup = 1;
-					foundIdx = i;
+					foundIdx = i; // 데이터가 저장된 공간 기억
 					break;
 				}
 			}
@@ -107,6 +107,7 @@ void main() {
 			isDup = 0;
 			for (int i = 0; i < cnt; i++) {
 				if (!strcmp(tmpName, arName[i])) {
+					// 배열에서 상품을 찾았을 때의 분기
 					printf("%s - %d원\n", arName[i], arPrice[i]);
 					isDup = 1;
 					break;
